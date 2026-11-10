@@ -42,12 +42,29 @@ billing information and the target variable Churn.
 - Logistic Regression
 - Random Forest Classifier
 
-## 7. Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC
+## 7. Model Performance
+
+The project evaluated two machine learning algorithms using a test dataset.
+
+| Metric | Logistic Regression | Random Forest |
+|---|---:|---:|
+| Accuracy | 74.16% | 76.44% |
+| Precision | 50.79% | 54.01% |
+| Recall | 77.96% | 74.19% |
+| F1 Score | 61.51% | 62.51% |
+| ROC-AUC | 0.8398 | 0.8394 |
+
+### Model Comparison
+
+Random Forest achieved the highest accuracy (76.44%), precision (54.01%) and F1-score (62.51%).
+
+Logistic Regression achieved higher recall (77.96%) and a marginally higher ROC-AUC (0.8398).
+
+Random Forest was selected as the initial overall model based on its accuracy, precision and F1-score. Logistic Regression remains a competitive alternative when identifying more potential churners is the priority.
+
+### Business Interpretation
+
+The models can help identify customers who may discontinue their telecom services. Businesses can use these predictions to prioritise customer retention campaigns.
 
 ## 8. Project Outputs
 The outputs folder contains trained models, visualisations,
