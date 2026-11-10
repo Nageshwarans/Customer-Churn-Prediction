@@ -1,3 +1,4 @@
+HEAD
 
 # Customer Churn Prediction
 
@@ -58,3 +59,6 @@ and support targeted customer retention strategies.
 
 ## 10. Author
 Nageshwaran S
+# Customer-Churn-Prediction
+Customer churn prediction using Python, Exploratory Data Analysis, Logistic Regression and Random Forest.
+3896314176d76e3c9f83c01a3c17dcdf51fa0ebb
